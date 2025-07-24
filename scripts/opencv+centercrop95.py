@@ -372,12 +372,9 @@ def analyze_sample_images(train_dir, num_samples=10):
                     print(f"Error analyzing {img_path}: {e}")
 
 
-# Run analysis first to see your data characteristics
-# analyze_sample_images("/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/train-gb copy")
-
 # Then run the cleaner with appropriate settings
 cleaner.filter_dataset_comprehensive(
-    train_dir="/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/train-gb copy",
-    output_dir="/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/cleaned-comprehensive-95",
+    train_dir="/Users/scl/PycharmProjects/Filter-Metrics/data/train-gb copy",
+    output_dir="/Users/scl/PycharmProjects/Filter-Metrics/data/cleaned-comprehensive-95",
     keep_percent=95
 )

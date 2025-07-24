@@ -374,7 +374,7 @@ def analyze_sample_images(train_dir, num_samples=10):
 
 # Then run the cleaner with appropriate settings
 cleaner.filter_dataset_comprehensive(
-    train_dir="/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/train-gb copy",
-    output_dir="/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/cleaned-large-crop-90",
+    train_dir="/Users/scl/PycharmProjects/Filter-Metrics/data/train-gb copy",
+    output_dir="/Users/scl/PycharmProjects/Filter-Metrics/data/cleaned-large-crop-90",
     keep_percent=90
 )

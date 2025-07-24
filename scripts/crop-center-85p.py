@@ -121,7 +121,7 @@ def filter_by_species_outliers(train_dir, output_dir, keep_percent):
     print(f"Accuracy: {overall_accuracy:.2f}")
 
 filter_by_species_outliers(
-    train_dir="/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/train-gb copy",
-    output_dir="/Users/scl/PycharmProjects/Filter-Metrics/.venv/data/cleaned-85",
+    train_dir="/Users/scl/PycharmProjects/Filter-Metrics/data/train-gb copy",
+    output_dir="/Users/scl/PycharmProjects/Filter-Metrics/data/cleaned-85",
     keep_percent=85
 )
